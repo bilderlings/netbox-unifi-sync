@@ -30,7 +30,7 @@ class Unifi:
     - Legacy / UniFi OS session login (username/password)
     """
 
-    SESSION_FILE = os.path.expanduser("~/.unifi_session.json")
+    SESSION_FILE = "/tmp/.unifi_session.json"
     DEFAULT_TIMEOUT = 15
     DEFAULT_HTTP_RETRIES = 3
     RETRY_BACKOFF_BASE = 1.0
